@@ -1,6 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JK Autorepuestos</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#f5f7fb;color:#222}
+header{background:linear-gradient(90deg,#005bbb,#d71920);padding:15px 40px;color:#fff;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0}
+header img{height:60px}
+nav a{color:#fff;text-decoration:none;margin-left:18px;font-weight:bold}
+.hero{padding:90px 20px;text-align:center;background:linear-gradient(rgba(0,91,187,.85),rgba(215,25,32,.75)),url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d?auto=format&fit=crop&w=1600&q=80') center/cover}
+.hero h1{font-size:48px;color:#fff}
+.hero p{color:#fff;max-width:700px;margin:20px auto;font-size:20px}
+.btn{display:inline-block;background:#fff;color:#005bbb;text-decoration:none;padding:14px 28px;border-radius:30px;font-weight:bold}
+section{max-width:1200px;margin:auto;padding:60px 20px}
+h2{text-align:center;color:#005bbb;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#fff;border-radius:14px;padding:25px;box-shadow:0 8px 20px rgba(0,0,0,.08);text-align:center}
+.card:hover{transform:translateY(-5px)}
+footer{background:#005bbb;color:#fff;padding:35px;text-align:center}
+.contacto p{margin:10px 0}
+</style>
+</head>
+<body>
 
 <header>
-<div><strong>JK AUTOREPUESTOS</strong></div>
+<div style="display:flex;align-items:center;gap:15px;">
+<img src="img/logo.png" onerror="this.style.display='none'">
+<div>
+<h2 style="color:white;margin:0">JK AUTOREPUESTOS</h2>
+<small>Especialistas en Volkswagen</small>
+</div>
+</div>
 <nav>
 <a href="#productos">Productos</a>
 <a href="#contacto">Contacto</a>
@@ -8,42 +40,41 @@
 </header>
 
 <section class="hero">
-<h1>Especialistas en Repuestos Volkswagen</h1>
-<p>Encuentra sensores, embragues, bombas de agua, amortiguadores, filtros y mucho más.</p>
+<h1>Repuestos Volkswagen</h1>
+<p>Calidad, confianza y atención personalizada para mantener tu vehículo en las mejores condiciones.</p>
 <a class="btn" href="https://wa.me/593990736248" target="_blank">Cotizar por WhatsApp</a>
 </section>
 
 <section id="productos">
-<h2>Productos</h2><br>
+<h2>Nuestros Productos</h2>
 <div class="grid">
 <div class="card">Sensores</div>
-<div class="card">Bombas de agua</div>
+<div class="card">Bombas de Agua</div>
 <div class="card">Rodamientos</div>
 <div class="card">Embragues</div>
 <div class="card">Correas</div>
 <div class="card">Filtros</div>
 <div class="card">Amortiguadores</div>
 <div class="card">Bujías</div>
-<div class="card">Pastillas de freno</div>
+<div class="card">Pastillas de Freno</div>
 <div class="card">Guardachoques</div>
 <div class="card">Guardafangos</div>
-<div class="card">Puertas</div>
-<div class="card">Capós</div>
-<div class="card">Retrovisores</div>
+<div class="card">Puertas · Capós · Retrovisores</div>
 </div>
 </section>
 
-<section id="contacto">
+<section id="contacto" class="contacto">
 <h2>Contáctanos</h2>
 <p><strong>WhatsApp:</strong> 0990736248</p>
 <p><strong>Dirección:</strong> Av. Pedro Vicente Maldonado S44-287 y La Cocha (Junto a la Unidad Educativa Paul Dirac)</p>
-<p><strong>Horario:</strong><br>Lunes a Viernes 08:00 - 18:30<br>Sábados 08:00 - 15:00</p>
+<p><strong>Horario:</strong> Lunes a Viernes 08:00–18:30 | Sábados 08:00–15:00</p>
 <p><a href="https://www.facebook.com/share/19F8Kgiefb/">Facebook</a> | <a href="https://www.tiktok.com/@jkautorepuestosvw?_r=1&_t=ZS-97wwaSEMS3w">TikTok</a></p>
 </section>
 
 <footer>
-© 2026 JK Autorepuestos - Todos los derechos reservados
+© 2026 JK Autorepuestos
 </footer>
 
 </body>
 </html>
+
